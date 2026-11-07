@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="grid-landing-page.css">
+    <title>Grid landing page</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <img src="images/favicon-32x32.png" alt="favicon">
+                    <span class="logo-name">Bridge Collective</span>
+                </div>
+                <button class="menu-toggle" 
+                type="button" 
+                aria-label="Open menu" 
+                aria-expanded="false"
+                aria-controls="main-nav">
+                <svg class="burger-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 8h16M4 16h16"/>
+                </svg>
+                <img class="icon-close" src="images/icon-close.svg" alt="icon-close">
+                </button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#our-work">Our Work</a></li>
+                        <li><a href="#partners">Partners</a></li>
+                        <li><a href="#annual-report">Annual Report</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="stats">
+            <div id="about" class="about">
+                        <div class="about-content">
+                            <h1 class="about-title">A classroom for every child.</h1>
+                            <p class="about-description">We fund the schools, train the teachers, and
+                            measure what works &mdash; so every child we reach
+                            today becomes a graduate tomorrow.</p>
+                        </div>
+            </div>
+            <div class="stats-grid">
+                <a href="#" id="our-work" class="stat-card">
+                    <div class="top">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.69 3.752a1.334 1.334 0 0 1 2.62 0l1.402 7.41a2.67 2.67 0 0 0 2.125 2.126l7.411 1.401a1.334 1.334 0 0 1 0 2.622l-7.41 1.401a2.67 2.67 0 0 0-2.126 2.125l-1.401 7.411a1.334 1.334 0 0 1-2.622 0l-1.4-7.41a2.67 2.67 0 0 0-2.126-2.126l-7.41-1.401a1.334 1.334 0 0 1 0-2.622l7.41-1.401a2.67 2.67 0 0 0 2.125-2.125z"/>
+                        </svg>
+                        <p class="stat-number">2.4M</p>
+                    </div>
+                    <div class="bottom">
+                        <p class="stat-title">Students reached</p>
+                        <p class="stat-description">Across 31 countries since 2011.</p>
+                    </div>
+                </a>
+                <a href="#" id="partners" class="stat-card">
+                    <div class="top">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6.667 16h18.666M16 6.667v18.666"/>
+                        </svg>
+                        <p class="stat-number">1,284</p>
+                        </div>
+                    <div class="bottom">
+                        <p class="stat-title">Schools partnered</p>
+                        <p class="stat-description">In 14 countries, from Kenya to Guatemala.</p>
+                    </div>
+                </a>
+                <a href="#" id="annual-report" class="stat-card">
+                    <div class="top">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6.667 16h18.666M16 6.667 25.333 16 16 25.333"/>
+                            </svg>
+                        <p class="stat-number">38K</p>
+                        </div>
+                        <div class="bottom">
+                            <p class="stat-title">Teachers trained</p>
+                            <p class="stat-description">Equipped with modern tools and methodology.</p>
+                        </div>
+                </a>
+                <a href="#" id="donate" class="stat-card">
+                    <div class="top">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21.334 9.333h8v8M29.333 9.333 18 20.667 11.333 14l-8.666 8.667"/>
+                        </svg>
+                        <p class="stat-number">3.1×</p>
+                    </div>
+                    <div class="bottom">
+                        <p class="stat-title">Graduation lift</p>
+                        <p class="stat-description">Partner schools outperform national averages 3x.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-content">
+                        <p class="footer-copyright">&#169; 2026 Bridge Collective</p>
+                        <p>Registered charity 12345678</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="grid-landing-page.js"></script>
+</body>
+</html>
